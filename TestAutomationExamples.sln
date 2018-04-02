@@ -24,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{163D35C8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CraigslistSiteTests", "CraigslistSiteTests\CraigslistSiteTests.csproj", "{8765087B-7CE0-4932-8422-855519F8D392}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTestingSample", "ApiTestingSample\ApiTestingSample.csproj", "{ED58472C-DFAD-43B3-BF0D-76570BC78113}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,10 @@ Global
 		{8765087B-7CE0-4932-8422-855519F8D392}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8765087B-7CE0-4932-8422-855519F8D392}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8765087B-7CE0-4932-8422-855519F8D392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED58472C-DFAD-43B3-BF0D-76570BC78113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED58472C-DFAD-43B3-BF0D-76570BC78113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED58472C-DFAD-43B3-BF0D-76570BC78113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED58472C-DFAD-43B3-BF0D-76570BC78113}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
