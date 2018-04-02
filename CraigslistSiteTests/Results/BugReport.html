@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <table border="1" cellpadding="5">
+            <caption>#1</caption>
+            <tr>
+                <td><b>Summary</b></td>
+                <td>Title of page "Bikes" contains wrong text</td>
+            </tr>
+            <tr>
+                <td><b>Environment</b></td>
+                <td>Any browser</td>
+            </tr>
+            <tr>
+                <td><b>Preconditions</b></td>
+                <td>Start browser and navigate to <a href="https://denver.craigslist.org/">https://denver.craigslist.org/</a></td>
+            </tr>
+            <tr>
+                <td><b>Steps to reproduce</b></td>
+                <td>
+                    <span>1. Click on "bikes" link under "for sale" section</span><br />
+                    <span>2. Click on "ALL BICYCLES" submenu link</span>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Actual result</b></td>
+                <td>Page title contains "denver bicycles - craigslist"</td>
+            </tr>
+            <tr>
+                <td><b>Expected result</b></td>
+                <td>Page title contains "denver bikes - craigslist"</td>
+            </tr>
+            <tr>
+                <td><b>Severity</b></td>
+                <td>Minor</td>
+            </tr>
+        </table>
+    </div>
+    <br />
+    <div>
+        <table border="1" cellpadding="5">
+            <caption>#2</caption>
+            <tr>
+                <td><b>Summary</b></td>
+                <td>On main page submenu link text contains wrong text</td>
+            </tr>
+            <tr>
+                <td><b>Environment</b></td>
+                <td>Any browser</td>
+            </tr>
+            <tr>
+                <td><b>Preconditions</b></td>
+                <td>Start browser and navigate to <a href="https://denver.craigslist.org/">https://denver.craigslist.org/</a></td>
+            </tr>
+            <tr>
+                <td><b>Steps to reproduce</b></td>
+                <td>1. Look submenu links under "for sale" section</td>
+            </tr>
+            <tr>
+                <td><b>Actual result</b></td>
+                <td>There is submenu link with text "cars+trucks"</td>
+            </tr>
+            <tr>
+                <td><b>Expected result</b></td>
+                <td>There is submenu link with text "cars & trucks"</td>
+            </tr>
+            <tr>
+                <td><b>Severity</b></td>
+                <td>Minor</td>
+            </tr>
+        </table>
+    </div>
+    <br />
+    <div>
+        <table border="1" cellpadding="5">
+            <caption>#3</caption>
+            <tr>
+                <td><b>Summary</b></td>
+                <td>On about page "CL Jobs" item references to incorrect url</td>
+            </tr>
+            <tr>
+                <td><b>Environment</b></td>
+                <td>Any browser</td>
+            </tr>
+            <tr>
+                <td><b>Preconditions</b></td>
+                <td>Start browser and navigate to <a href="https://denver.craigslist.org/">https://denver.craigslist.org/</a></td>
+            </tr>
+            <tr>
+                <td><b>Steps to reproduce</b></td>
+                <td>
+                    <span>1. Remember link address of "cl jobs" footer link</span><br />
+                    <span>2. Click on "about" footer link</span><br />
+                    <span>3. Compare url of "CL Jobs" item to remembered</span>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Actual result</b></td>
+                <td>Link address of "CL Jobs" item is <br />"https://sfbay.craigslist.org/about/craigslist_is_hiring"</td>
+            </tr>
+            <tr>
+                <td><b>Expected result</b></td>
+                <td>Link address of "CL Jobs" item is <br /> "https://www.craigslist.org/about/craigslist_is_hiring"</td>
+            </tr>
+            <tr>
+                <td><b>Severity</b></td>
+                <td>Minor</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

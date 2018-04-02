@@ -1,0 +1,9 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Debug" appbase="D:\Projects\AutomationTests\CraigslistSiteTests" processModel="Default" domainUsage="Default" />
+  <Config name="Debug">
+    <assembly path="bin\Debug\CraigslistSiteTests.dll" />
+  </Config>
+  <Config name="Release">
+    <assembly path="bin\Release\CraigslistSiteTests.dll" />
+  </Config>
+</NUnitProject>
