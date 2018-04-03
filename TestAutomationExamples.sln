@@ -7,21 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonTests", "AmazonTests\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebdriverTests", "WebdriverTests\WebdriverTests.csproj", "{CAB4AADC-A7EE-4273-A914-5FB7468F6BAD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{163D35C8-D40B-41D1-BD90-D3876B895E6C}"
-	ProjectSection(SolutionItems) = preProject
-		Tools\geckodriver.exe = Tools\geckodriver.exe
-		Tools\MicrosoftWebDriver.exe = Tools\MicrosoftWebDriver.exe
-		Tools\node_log.txt = Tools\node_log.txt
-		Tools\node_log.txt.lck = Tools\node_log.txt.lck
-		Tools\nodeConfig.json = Tools\nodeConfig.json
-		Tools\nodeConfig_VMUbuntu.json = Tools\nodeConfig_VMUbuntu.json
-		Tools\nodeConfig_VMWin10.json = Tools\nodeConfig_VMWin10.json
-		Tools\selenium-server-standalone.jar = Tools\selenium-server-standalone.jar
-		Tools\StartHubAndNodes.bat = Tools\StartHubAndNodes.bat
-		Tools\StartNodeOnVMUbuntu.sh = Tools\StartNodeOnVMUbuntu.sh
-		Tools\StartNodeOnVMWin10.bat = Tools\StartNodeOnVMWin10.bat
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CraigslistSiteTests", "CraigslistSiteTests\CraigslistSiteTests.csproj", "{8765087B-7CE0-4932-8422-855519F8D392}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTestingSample", "ApiTestingSample\ApiTestingSample.csproj", "{ED58472C-DFAD-43B3-BF0D-76570BC78113}"

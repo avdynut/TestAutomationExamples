@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Drawing.Imaging;
 using System.IO;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
