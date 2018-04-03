@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 
-namespace ApiTestingSample
+namespace WebdriverTests
 {
-	public class ApiLogin
+	public class ApiLoginExample
 	{
 		private const string Username = "59jlc9pcryw5pby1@my10minutemail.com";
 		private const string Password = "Qwqw3211";
